@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--inicio bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!--fim bootstrap-->
+  <link rel="stylesheet" href="style.css">
+
+  <title>DEV VIAJAR</title>
+</head>
+
+<body>
+  <!--Início Navbar-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">DEV VIAJAR</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="/">HOME <span class="sr-only">(Página atual)</span></a>
+          <a class="nav-item nav-link" href="destinos">DESTINOS</a>
+          <a class="nav-item nav-link" href="promocoes">PROMOÇÕES</a>
+          <a class="nav-item nav-link" href="contato">CONTATO</a>
+        </div>
+      </div>
+    </nav>
+    <!--Fim Navbar-->
+
+  </header>
+
+  <main>
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./imagens/img1.jpeg" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./imagens/img2.webp" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./imagens/img3.jpg" alt="Terceiro Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+
+    <br><br>
+    <h2>Destinos mais visitados</h2>
+    <br><br>
+
+    <section class="d-flex justify-content-center">
+
+      <div class="card" style="width: 18rem; margin-right: 3%;">
+        <img class="card-img-top" src="./imagens/tailandia.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Bangkok, Tailândia</h5>
+          <p>A capital tailandesa mescla o melhor dos dois mundos, tem vida noturna e hotéis modernos, mas também
+            oferece atrações tradicionais para quem curte visitar mercados locais e conhecer a cultura raiz e os
+            costumes da população nativa</p>
+
+          <a href="#" class="btn btn-primary" style="text-align: center;">Visitar</a>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="card" style="width: 18rem; margin-right: 3%;">
+        <img class="card-img-top" src="./imagens/londres.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Londres, Reino Unido</h5>
+          <p class="card-text">Com diversos espaços culturais, uma variedade infinita de restaurantes, bares e atrações,
+            Londres continua atraindo turistas do mundo todo.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem; margin-right: 3%;">
+        <img class="card-img-top" src="./imagens/macau.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Macau, China</h5>
+          <p class="card-text">Shows de luzes e água, pavilhões temáticos capazes de reproduzir cidades inteiras e uma
+            gama de entretenimento fazem com que Macau mereça a comparação com Las Vegas</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem; margin-right: 3%;">
+        <img class="card-img-top" src="./imagens/Paris.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Paris, França</h5>
+          <p class="card-text">A cidade possui os pontos turísticos mais visitados no mundo entre eles a icônica Torre
+            Eiffel!. Uma visita só nunca é o suficiente para ver tudo de bom que há no Museu do Louvre e dar uma
+            passadinha na Torre Eiffel nunca é demais.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./imagens/New York.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">New York, EUA</h5>
+          <p class="card-text">Os melhores museus do mundo, arranha-céus, monumentos históricos, parques urbanos,
+            restaurantes badalados e muito mais</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="container-fluid bg-info mt-5" style="height: 100px !important;">
+  </footer>
+
+</body>
+
+</html>

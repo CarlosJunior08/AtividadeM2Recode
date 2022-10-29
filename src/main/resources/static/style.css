@@ -1,0 +1,48 @@
+.rede{
+    margin-right: 100px;
+    align-items: center;
+    color: black;
+}
+
+h2,p{
+    text-align: center;
+    color: black;
+    font-family:monospace
+}
+
+#btntop{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.hoteis{
+    vertical-align: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nacionais{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inter{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carro{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form{
+    text-align: center;
+    border: solid 1px transparent;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.card-title{
+    text-align: center;
+}
